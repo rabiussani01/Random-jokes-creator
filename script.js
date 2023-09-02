@@ -29,11 +29,11 @@ function loadJokes(e) {
 
       style.innerHTML = `
         ol{
-            height: 250px;
+            height: 225px;
             overflow: scroll;
         }
             li {
-                 padding-bottom: 10px;
+                 padding-bottom: 1%;
                  
                 }`;
       document.head.appendChild(style);
